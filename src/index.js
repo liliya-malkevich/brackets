@@ -1,4 +1,4 @@
-/*module.exports = */function check(str, bracketsConfig) {
+module.exports = function check(str, bracketsConfig) {
   // your solution
   str = str.split('');
   let arr = [];
@@ -24,4 +24,4 @@ if(arr.length==0) return true;
 else return false;
 }
 
-console.log(check('|(|)',[['(', ')'], ['|', '|']]));
+//console.log(check('|(|)',[['(', ')'], ['|', '|']]));
